@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  #form{
+      padding: 10px;
+  }
+  #card{
+      width: 50%;
+     text-align: left;
+     background-color: hsl(0, 0%, 0%);
+     box-shadow: 0px 0px 10px 0px rgb(47, 255, 0);
+     display: flex;
+     margin-left: 25vw;
+     margin-top: 20vh;
+  }
+  #email-label{
+      display: block;
+      font-size: 2rem;
+      margin-left: 5px;
+      color: white;
+  }
+  #email-input{
+      font-size: 1.5rem;
+      padding: 5px;
+      width: 45vw;
+      margin-top: 10px;
+      border-radius: 10px;
+      margin-left: 5px;
+  }
+  #email-error{
+      display: block;
+      color: red;
+      margin-top: 10px;
+      margin-left: 5px;
+      font-size: 1.3rem;
+  }
+  #password-label{
+      display: block;
+      font-size: 2rem;
+      margin-left: 5px;
+      margin-top: 30px;
+      color: white;
+  }
+  #password-input{
+      font-size: 1.5rem;
+      padding: 5px;
+      width: 45vw;
+      margin-top: 10px;
+      border-radius: 10px;
+      margin-left: 5px;
+  }
+  #password-error{
+      display: block;
+      color: red;
+      margin-top: 10px;
+      margin-left: 5px;
+      font-size: 1.3rem; 
+  }
+  #submit-button{
+      width: 16vw;
+      height: 7vh;
+      border-radius: 10px;
+      margin-top: 25px;
+      font-size: 1.5rem;
+      margin-left: 5px;
+      margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 500px){
+      #form{
+          padding:0px;
+          margin:0px;
+      }
+  
+      #card{
+          width: 90vw;
+          margin-left: 3vw;
+      }
+      #email-input{
+          width: 84vw;
+      }
+      #email-label{
+          margin-top: 5px;
+      }
+      #password-input{
+          width: 84vw;
+      }
+      #submit-button{
+        width: 45vw;
+        height: 5vh;
+      }
+  }
